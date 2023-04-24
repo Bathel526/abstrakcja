@@ -10,7 +10,7 @@ class KlasaAbstrakcyjna(ABC):
 
     @abstractmethod
     def method_2(self):
-        pass # brak implementacji nie zglosi takiego eleganckego komunikatu jak na gorze
+        pass # brak implementacji nie zglosi takiego komunikatu jak na gorze
 
 class Test(KlasaAbstrakcyjna):
     def __init__(self, name):
